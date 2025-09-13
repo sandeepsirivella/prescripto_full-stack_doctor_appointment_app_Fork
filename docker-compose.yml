@@ -9,5 +9,5 @@ service:
      -backend
   backend:
     build:./backend
-    port:
+    ports:
       -"5000:5000"
